@@ -26,7 +26,7 @@
             
              <%
             
-            String roomID = request.getParameter("roomID");
+            String roomID = request.getParameter("ID");
             DB.DB_Connection beds = new DB.DB_Connection();
             ResultSet result = beds.getBedsInRoom(Integer.parseInt(roomID));
             %>
